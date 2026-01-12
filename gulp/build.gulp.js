@@ -20,7 +20,7 @@ gulp.task('build:push', () =>
   gulp
     .src('**/*', {
       cwd: paths.dir.prod,
-      base: `./${paths.dir.prod}`
+      base: paths.dir.prod
     })
-    .pipe(gulp.dest(`live/${version}`))
+    .pipe(gulp.dest(`live`))
 );
