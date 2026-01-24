@@ -274,11 +274,11 @@ portfolio
 │   │   │   │   ├── 26.png
 │   │   │   │   ├── 27.png
 │   │   │   │   ├── 28.png
-│   │   │   │   └── logo-sparrow.png
-│   │   │   ├── logo-sparrow-digital.png
-│   │   │   ├── logo-sparrow-invert.svg
-│   │   │   ├── logo-sparrow.png
-│   │   │   ├── logo-sparrow.svg
+│   │   │   │   └── logo-wb.png
+│   │   │   ├── logo-wb-digital.png
+│   │   │   ├── logo-wb-invert.svg
+│   │   │   ├── logo-wb.png
+│   │   │   ├── logo-wb.svg
 │   │   │   ├── map-marker.png
 │   │   │   ├── necklace-01.jpg
 │   │   │   ├── portfolio-01.jpg
@@ -783,11 +783,11 @@ portfolio
 │   │   │   │   ├── 26.png
 │   │   │   │   ├── 27.png
 │   │   │   │   ├── 28.png
-│   │   │   │   └── logo-sparrow.png
+│   │   │   │   └── logo-wb.png
 │   │   │   ├── logo-sparrow-digital.png
-│   │   │   ├── logo-sparrow-invert.svg
-│   │   │   ├── logo-sparrow.png
-│   │   │   ├── logo-sparrow.svg
+│   │   │   ├── logo-wb-invert.svg
+│   │   │   ├── logo-wb.png
+│   │   │   ├── logo-wb.svg
 │   │   │   ├── map-marker.png
 │   │   │   ├── necklace-01.jpg
 │   │   │   ├── portfolio-01.jpg
