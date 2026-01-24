@@ -6,6 +6,17 @@
     "jquery": true
   },
   "rules": {
+    "max-len": [
+      "warn",
+      {
+        "code": 120,
+        "tabWidth": 2,
+        "ignoreUrls": true,
+        "ignoreStrings": false,
+        "ignoreTemplateLiterals": false,
+        "ignoreComments": false
+      }
+    ],
     "padded-blocks": "off",
     "no-console": "off",
     "no-unused-expressions": "off",
