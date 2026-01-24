@@ -78,6 +78,7 @@
     "progressbar.js": "^1.1.1",
     "rellax": "^1.12.1",
     "swiper": "^12.0.3",
+    "tree-node-cli": "^1.6.0",
     "typed.js": "^2.1.0"
   },
   "browserslist": [
