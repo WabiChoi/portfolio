@@ -850,44 +850,44 @@
               </div>
             </div>
 
-            <!-- 맵영역 -->
+            <!-------------------------- 맵영역 -------------------------->
+            <style>
+              .google-map-wrap {
+                width: 100%;
+                min-height: 50vh; /* 모바일 기본 높이 */
+              }
+
+              @media (min-width: 992px) {
+                .google-map-wrap {
+                  min-height: 100vh; /* 데스크탑은 화면 꽉 */
+                }
+              }
+
+              .google-map-wrap iframe {
+                width: 100%;
+                height: 100%;
+                min-height: inherit;
+                border: 0;
+                display: block;
+              }
+            </style>
+
             <div class="col-lg-6 px-0">
               <div class="sticky-top ovrflow-hidden-y">
-                <div
-                  class="googlemap min-vh-100 d-none d-lg-block"
-                  data-gmap="data-gmap"
-                  data-latlng="48.8588723,2.2932638"
-                  data-pov='{"heading":120,"pitch":0}'
-                  data-scrollwheel="false"
-                  data-icon="assets/images/map-marker.png"
-                  data-zoom="1"
-                  data-theme="streetview"
-                  data-zanim-lg='{"animation":"zoom-out-slide-left","delay":0.4}'
-                  data-zanim-trigger="scroll"
-                ></div>
-                <!--Mobile Fallback-->
-                <div
-                  class="googlemap min-vh-50 d-lg-none"
-                  data-gmap="data-gmap"
-                  data-latlng="48.8588723,2.2932638"
-                  data-pov='{"heading":75,"pitch":0}'
-                  data-scrollwheel="false"
-                  data-icon="../assets/img/map-marker.png"
-                  data-mapid="a2a07f618947e1cca5b1a9b0"
-                  data-zoom="17"
-                >
-                  <div class="marker-content py-3">
-                    <h5>Eiffel Tower</h5>
-                    <p>
-                      Gustave Eiffel's iconic, wrought-iron 1889 tower,
-                      <br />
-                      with steps and elevators to observation decks.
-                    </p>
-                  </div>
+                <div class="google-map-wrap">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52101.46755314529!2d126.87762230107747!3d35.29748961435779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3571948375b02f1d%3A0xa06e270e2c1dff38!2z7KCE652864Ko64-EIOuLtOyWkeq1sCDsiJjrtoHrqbQ!5e0!3m2!1sko!2skr!4v1769657411346!5m2!1sko!2skr"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
                 </div>
               </div>
             </div>
-            <!-- 맵영역 끝 -->
+            <!-------------------------- 맵영역 끝 -------------------------->
           </div>
         </div>
         <!-- end of .container-->
@@ -921,8 +921,9 @@
             </a>
           </div>
           <div class="col-lg-4 text-lg-start mt-4 mt-lg-0">
-            <p class="fs-10 text-uppercase ls fw-bold mb-0">Copyright &copy; 2026 Sparrow&trade; inc.</p>
+            <p class="fs-10 text-uppercase ls fw-bold mb-0">@Copyright 2026 WONBI CHOI</p>
           </div>
+          <!--
           <div class="col-lg-4 text-lg-end order-lg-2 mt-2 mt-lg-0">
             <p class="fs-10 text-uppercase ls fw-bold mb-0">
               Made with
@@ -937,6 +938,7 @@
               </a>
             </p>
           </div>
+          -->
         </div>
       </div>
     </footer>
