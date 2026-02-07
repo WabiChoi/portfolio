@@ -19978,7 +19978,7 @@ html[dir='rtl'] .googlemap .gm-style-iw.gm-style-iw-c button[title='Close'] {
   top: 0;
   left: 0;
   background-size: cover;
-  background-position: center;
+  background-position: top center;
   overflow: hidden;
   will-change: transform, opacity, filter;
   -webkit-backface-visibility: hidden;
